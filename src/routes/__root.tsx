@@ -75,10 +75,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Isabella Cortina — Luxury Makeup Artist · Barranquilla" },
       { name: "description", content: "Professional makeup for unforgettable moments. Bridal, social glam and editorial beauty in Barranquilla, Colombia." },
       { name: "author", content: "Isabella Cortina" },
-      { property: "og:title", content: "Isabella Cortina — Luxury Makeup Artist" },
-      { property: "og:description", content: "Professional makeup for unforgettable moments. Bridal, social and editorial beauty in Barranquilla." },
+      { property: "og:title", content: "Isabella Cortina — Luxury Makeup Artist · Barranquilla" },
+      { property: "og:description", content: "Professional makeup for unforgettable moments. Bridal, social glam and editorial beauty in Barranquilla, Colombia." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Isabella Cortina — Luxury Makeup Artist · Barranquilla" },
+      { name: "twitter:description", content: "Professional makeup for unforgettable moments. Bridal, social glam and editorial beauty in Barranquilla, Colombia." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7746cd67-53bb-4e74-9e9e-c50a36169467/id-preview-4de0a6b9--1ff55bd3-4d95-4c8a-9b6b-6978b08588c5.lovable.app-1778432603254.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7746cd67-53bb-4e74-9e9e-c50a36169467/id-preview-4de0a6b9--1ff55bd3-4d95-4c8a-9b6b-6978b08588c5.lovable.app-1778432603254.png" },
     ],
     links: [
       {
